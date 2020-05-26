@@ -3,7 +3,7 @@ import app from "../assets/img/shape/app_btn2.png"
 
 export default function App_Banner() {
     return (         
-        <div className="available-app-area">
+        <div className="available-app-area ">
         <div className="container">
             <div className="row d-flex justify-content-between">
                 <div className="col-xl-5 col-lg-6">

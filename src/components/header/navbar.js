@@ -1,5 +1,5 @@
 import React from 'react';
-import {NavLink} from 'react-router-dom';
+import {NavLink,Link} from 'react-router-dom';
 import Logo from "./logo.png";
 import Logo2 from "./cool.png";
 import $ from "jquery";
@@ -14,13 +14,12 @@ export default function Header() {
           $(".header-sticky").addClass("sticky-bar");
         }
       });
-  
       $(window).on('scroll', function () {
         var scroll = $(window).scrollTop();
         if (scroll < 245) {
-            $(".header-sticky").removeClass("sticky");
+          $(".header-sticky").removeClass("sticky");
         } else {
-            $(".header-sticky").addClass("sticky");
+          $(".header-sticky").addClass("sticky");
         }
       });
   
@@ -46,8 +45,8 @@ export default function Header() {
                                     <ul id="navigation">    
                                         <li active ><NavLink to="/"> Home</NavLink></li>
                                         <li><NavLink to="/about" >About Us</NavLink></li>
-                                        <li><NavLink to="/blogs">Blogs</NavLink></li>
-                                        <li><NavLink to="/contact">Contact</NavLink></li>
+                                        <li><NavLink to="/team">Our Team</NavLink></li>
+                                        <li><NavLink to="/careers">Careers</NavLink></li>
                                         <li><NavLink to="/"> <span className="btn radius-btn"> Get Our App</span></NavLink></li>
                                     </ul>
                                 </nav>

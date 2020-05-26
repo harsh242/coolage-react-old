@@ -2,8 +2,11 @@ import React from "react";
 import Message from "../../lotties/Messaging.gif";
 export default class Feature3 extends React.Component{
     render(){
+        const background={
+            background:"red"
+        }
         return(
-          <div className="applic-apps section-padding2">
+          <div className="applic-apps section-padding2" style={background}>
           <div className="container">
               <div className="row">
                  
@@ -12,7 +15,7 @@ export default class Feature3 extends React.Component{
                           </div>
                   <div className="col-lg-5 ">
                       <div className="single-cases-info mb-30">
-                          <h3>Connect with your friends & Seniors of your college</h3>
+                          <h3>Manage your college office problems</h3>
                           <p>Lorem ipsum dolor sit amet, consecadipiscing elit, sed do eiusmod tempor incididunt ut ore et dolore magna aliqua. Quis ipsum suspendisse gravida. Risus commodo viverra maecenasan lacus vel facilisis. </p>
                       </div>
                   </div>

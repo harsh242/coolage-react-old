@@ -1,0 +1,29 @@
+.accordion {
+    margin-top: 40px;
+    .card {
+      border: none;
+      margin-bottom: 20px;
+      .card-head{
+        background-color: #203e92;
+        cursor: pointer;
+        padding: 16px 16px;
+        h2 {
+          background: url(../img/faq/chevron-up.svg) no-repeat calc(100% - 10px) center;
+        background-size: 20px;
+         
+          font-size: 18px;
+          font-weight: bold;
+          color: #fff;
+          &.collapsed {
+                background-image: url(../img/faq/chevron-down.svg);
+          }
+        }
+      }
+    
+      
+      &-body {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+  }

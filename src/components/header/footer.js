@@ -28,9 +28,10 @@ export default function Footer() {
                               <h4>Quick Links</h4>
                               <ul>
                                   <li><NavLink to="/about">About</NavLink></li>
-                                  <li><NavLink to="/blogs">Blogs</NavLink></li>
-                                  <li><NavLink to="/contact">Contact</NavLink></li>
                                   <li><NavLink to="/team">Our Team</NavLink></li>
+                                  <li><NavLink to="/blogs">Join Us</NavLink></li>
+                                  <li><NavLink to="/contact">Contact</NavLink></li>
+                                  <li><NavLink to="/faq">FAQs</NavLink></li>
                               </ul>
                           </div>
                       </div>
@@ -38,12 +39,12 @@ export default function Footer() {
                   <div className="col-lg-2 col-md-4 col-sm-7">
                       <div className="single-footer-caption mb-50">
                           <div className="footer-tittle">
-                              <h4>Support</h4>
+                              <h4>Social</h4>
                               <ul>
-                                  <li><NavLink to="/report">Report a bug</NavLink></li>
-                                  <li><NavLink to="/privacy">Privacy Policy</NavLink></li>
-                                  <li><NavLink to="/t&c">Terms & Conditions</NavLink></li>
-                                  <li><NavLink to="/faq">FAQs</NavLink></li>
+                                   <li><a href="https://www.instagram.com/coolageapp/"><i class="lni lni-instagram-original"></i> Instagram</a></li>
+                                   <li><a href="https://www.linkedin.com/company/coolageapp/"><i class="lni lni-linkedin-original"></i> LinkedIn</a></li>
+                                   <li><a href="https://www.facebook.com/coolageapp/"><i class="lni lni-facebook-original"></i> Facebook</a></li>
+                                   <li><a href="https://twitter.com/CoolAgeapp"><i class="lni lni-twitter-original"></i> Twitter</a></li>
                               </ul>
                           </div>
                       </div>
@@ -62,7 +63,7 @@ export default function Footer() {
                   <div className="col-xl-12 ">
                       <div className="footer-copy-right">
                          <p>
-                      Made with <i className="ti-heart" aria-hidden="true"></i> by <NavLink to="coolage.app" target="_blank">Coolage.App</NavLink></p>
+                      Made with <i className="lni lni-heart" aria-hidden="true"></i> by <NavLink to="coolage.app" target="_blank">Coolage.App</NavLink></p>
                       </div>
                   </div>
               </div>

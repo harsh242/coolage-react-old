@@ -11,17 +11,20 @@ export default class Mission extends React.Component{
         autoplay: true,
         animationData: about,
         rendererSettings: {
-          preserveAspectRatio: 'xMidYMid slice'
-        }
+          preserveAspectRatio: 'xMidYMid meet'
+          
+        },
+        
+
+      
       };
         return(
             <div>
             <div className="container">
               <div className="row mb-5">
-              <div className="col-lg-6" data-aos="fade-right">
-              <Lottie className="img-fluid" options={defaultOptions}
-                                      height={600}
-                                      width={600}
+              <div className="col-lg-6 img-fluid" data-aos="fade-right">
+              <Lottie  options={defaultOptions}
+                                     
                                      />
                 </div>
                 <div className="col-lg-5 ml-auto pl-lg-5">

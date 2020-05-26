@@ -30,7 +30,7 @@ export default class Hero extends React.Component{
       };
 
         return( 
-          <div class="slider-area ">
+          <div class="slider-area mt-80">
           <div class="slider-active">
               <div class="single-slider slider-height  sky-blue d-flex align-items-center">
                   <div class="container">
